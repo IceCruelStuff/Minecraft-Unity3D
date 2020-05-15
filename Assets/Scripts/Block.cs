@@ -36,7 +36,7 @@ public class Block
             new Block(
                 Tile.Grass,
                 Tile.GrassSide,
-                Tile.Dirt
+                Tile.Dirt,
             )
         },
         {
@@ -56,7 +56,13 @@ public class Block
             new Block(
                 Tile.TreeCX,
                 Tile.TreeSide,
-                Tile.TreeCX
+                Tile.TreeCX,
+            )
+        },
+        {
+            BlockType.Diamond,
+            new Block(
+                Tile.Diamond
             )
         },
         {
@@ -74,5 +80,6 @@ public enum BlockType {
     Grass,
     Stone,
     Trunk,
-    Leaves
+    Leaves,
+    Diamond,
 }
